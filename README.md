@@ -10,12 +10,12 @@ Helpful if you want to play with somebody in a single player game with two/three
 1. Disconnect all gamepads, cause new merged gamepad will need gamepad 0 slot to work in most games.
 2. Execute `merge_gamepads.exe` from Windows Explorer or console.  
 *Default gamepad refreshing rate is `10 ms`. If you want to change that, use `merge_gamepads.exe time_in_ms` instead.*
-3. When prompt occurs, connect all your gamepads to merge, then press ENTER.
+3. When prompt occurs, connect all your gamepads, which you want to merge, then press `ENTER`.
 4. That's all, virtual gamepad will be present until you close application.
 
 ## Troubleshooting
 **Game see only input from one, not merged gamepad**
-* Try to set merged gamepad as **Preferred device* in Windows *Game controllers* settings.
+* Try to set merged gamepad as **Preferred device** in Windows **Game controllers** settings.
 * Use [HidHide tool](https://vigem.org/projects/HidHide/), to hide physical game pads in game.
 
 **Game registers duplicate inputs**
@@ -23,5 +23,5 @@ Helpful if you want to play with somebody in a single player game with two/three
 
 ## Build
 1. Install [`rust`](https://doc.rust-lang.org/book/ch01-01-installation.html#installing-rustup-on-windows)
-Use `cargo build` or `cargo build --release` in root directory.
-Executable will be placed in `target\[debug,release]\` directory.
+2. Use `cargo build` or `cargo build --release` in root directory to build binary.  
+It will be placed in `target\[debug,release]\` directory.
