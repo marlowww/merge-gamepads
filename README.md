@@ -7,11 +7,12 @@ Helpful if you want to play with somebody in a single player game with two/three
 *It is especially useful, when using some remote game screen sharing software (eg. [Moonlight](https://moonlight-stream.org/) + [Sunshine](https://github.com/LizardByte/Sunshine)).*
 
 ## Usage
-1. Disconnect all gamepads, cause new merged gamepad will need gamepad 0 slot to work in most games.
-2. Execute `merge_gamepads.exe` from Windows Explorer or console.  
+1. Install [ViGEmBus](https://github.com/ViGEm/ViGEmBus/releases) and restart your PC.
+1. Disconnect all gamepads (cause new merged gamepad will need gamepad 0 slot to work in most games).
+1. Execute `merge_gamepads.exe` from Windows Explorer or console.  
 *Default gamepad refreshing rate is `10 ms`. If you want to change that, use `merge_gamepads.exe time_in_ms` instead.*
-3. When prompt occurs, connect all your gamepads, which you want to merge, then press `ENTER`.
-4. That's all, virtual gamepad will be present until you close application.
+1. When prompt occurs, connect all your gamepads, which you want to merge, then press `ENTER`.
+1. That's all, virtual gamepad will be present until you close application.
 
 ## Troubleshooting
 **Game see only input from one, not merged gamepad**
@@ -20,6 +21,9 @@ Helpful if you want to play with somebody in a single player game with two/three
 
 **Game registers duplicate inputs**
 * Use [HidHide tool](https://vigem.org/projects/HidHide/), to hide physical game pads in game.
+
+**Application instantly closes itself**
+* Run program in console (`cmd`/`powershell`) to see error message.
 
 ## Build
 1. Install [`rust`](https://doc.rust-lang.org/book/ch01-01-installation.html#installing-rustup-on-windows)
