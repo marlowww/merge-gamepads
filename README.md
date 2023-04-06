@@ -6,9 +6,12 @@
 Helpful if you want to play with somebody in a single player game with two/three game pads (you want to take turns).  
 *It is especially useful, when using some remote game screen sharing software (eg. [Moonlight](https://moonlight-stream.org/) + [Sunshine](https://github.com/LizardByte/Sunshine)).*
 
+## Downloads
+* [Windows x64](https://github.com/marlowww/merge-gamepads/releases)
+
 ## Usage
 1. Install [ViGEmBus](https://github.com/ViGEm/ViGEmBus/releases) and restart your PC.
-1. Disconnect all gamepads (cause new merged gamepad will need gamepad 0 slot to work in most games).
+1. Disconnect all gamepads (cause new, merged gamepad will need gamepad 0 slot to work in most games).
 1. Execute `merge_gamepads.exe` from Windows Explorer or console.  
 *Default gamepad refreshing rate is `10 ms`. If you want to change that, use `merge_gamepads.exe time_in_ms` instead.*
 1. When prompt occurs, connect all your gamepads, which you want to merge, then press `ENTER`.
