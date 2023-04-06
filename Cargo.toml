@@ -1,0 +1,10 @@
+[package]
+name = "merge_gamepads"
+version = "0.1.0"
+edition = '2021'
+
+[dependencies]
+log = "0.4.17"
+rusty-xinput = "1.2.0"
+simple_logger = "4.1.0"
+vigem-client = "0.1"
